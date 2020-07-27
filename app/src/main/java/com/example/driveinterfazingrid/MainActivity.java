@@ -83,18 +83,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         drawerLayout.closeDrawer(GravityCompat.START);
         if(item.getItemId()==R.id.Reciente){
-            //fragmenManager=getSupportFragmentManager();
-            //fragmentTransaction=fragmenManager.beginTransaction();
-            //fragmentTransaction.replace(R.id.container_fragment, new DestacadosFragment());
-            //fragmentTransaction.commit();
             showSelectedFragment(new DestacadosFragment());
         }
 
         if(item.getItemId()==R.id.Destacados){
-            //fragmenManager=getSupportFragmentManager();
-            //fragmentTransaction=fragmenManager.beginTransaction();
-            //fragmentTransaction.replace(R.id.container_fragment, new DestacadosFragment());
-            //fragmentTransaction.commit();
             showSelectedFragment(new DestacadosFragment());
 
         }

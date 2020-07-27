@@ -52,6 +52,26 @@
         android:fitsSystemWindows="true">
     </com.google.android.material.navigation.NavigationView>
 
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        >
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="50dp"
+            android:id="@+id/fabRedactar"
+            android:backgroundTint="#FFFF"
+            android:src="@drawable/icon_mas"
+            />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="wrap_content"
@@ -64,7 +84,6 @@
             android:theme="@style/ThemeOverlay.AppCompat.Light"
             app:itemIconTint="@color/barraabajo"
             app:itemTextColor="@color/barraabajo"
-
             app:menu="@menu/navegation_barraabajo"
             android:id="@+id/bottonNaviga"
             android:fitsSystemWindows="true"/>
